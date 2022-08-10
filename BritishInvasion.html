@@ -1,0 +1,105 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/British_Invasion_background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1960s</h3>
+		<h1 class="text-light">British Invasion</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>In 1964, The Beatles made their American debut on The Ed Sullivan Show. Although widely popular in the United Kingdom, 
+		 		there had been a reluctance to release the Beatle's records in the US, partly because their record company wasn't sure
+		 		how the American public would take to their moptop haircuts! An international news report on the Beatlemania sweeping 
+		 		the UK changed all of that and just two weeks before their appearance on the Ed Sullivan show, they became overnight
+		 		sensations in America, with their hit <i>I want to hold your hand</i> reaching Number 1 on the Billboard Charts. 
+		 		Thousands of screaming, hysterical fans met them at the airport and within months, not only did they occupy the top five 
+		 		spots on the Billboard Hot 100 singles chart, but everything including their hair was being copied! The Beatles became a 
+		 		voice for young people, many of whom were disillusioned by the assassination of President John F. Kennedy and the controversy 
+		 		over the war in Vietnam. Their popularity also began a sudden rush of interest in other bands from the UK</p>
+		 		<p>The Rolling Stones were known for their rebellious image, which was a hit with young people. This reputation tended to create 
+		 		chaos, and their debut performance on The Ed Sullivan Show was such a debacle, that Ed Sullivan himself vowed to never 
+		 		have them on the show again. Of course, they did appear 5 more times because of their popularity. The incredible success 
+		 		of the Beatles and The Rolling Stones led to them both being named in the top 10 of Billboard's Top 100 artists of all time.</p>
+		 		<p>Although the style of each band varied, the British Invasion bands generally played a type of rock music that was heavily 
+		 		influenced by blues or a mix of rock and pop music that was dominated by the use of guitars.</p>
+		 		
+		 		<p> <b>Significant British Invasion Musicians</b> </p>
+		 			<ul>
+		 				<li>The Beatles</li>
+		 				<li>The Rolling Stones</li>
+		 				<li>The Animals</li>
+		 				<li>The Monkees</li>
+		 				<li>The Bee Gees</li>
+		 				<li>The Who</li>
+		 				<li>Dave Clark Five</li>
+		 			</ul>
+		 		
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5s6lp000mFNCltKqRfV9ay?utm_source=generator&theme=0" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Motown"><i class="fa-solid fa-backward-step"></i> Motown</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!SurfRock">Surf Rock <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

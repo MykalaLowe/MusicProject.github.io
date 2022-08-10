@@ -1,0 +1,53 @@
+<style>
+	body { 
+		  background: url(images/quiz_background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+
+
+<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h1 class="text-light">Quiz
+			<button type="button" class="btn btn-info float-right" ng-click="goToLearn()">Return to Learn</button>
+		</h1>		
+	</div>
+	<div class="card-body">
+		<div ng-controller="quizController">
+			
+			<ul class="unstyled">
+		    	<h6 ng-repeat="question in questions">
+		    		<strong class="question">{{ question.questionText }}</strong>
+		    		<br><br>
+		    		<ul class="unstyled" id="quest_{{$parent.$index}}">
+		    			<p ng-repeat="answer in question.answers">
+		    			<label class="isCorrect_{{answer.selected}}" for="quest_{{$parent.$index}}_answer_{{$index}}">
+		    			<input type="radio" id="quest_{{$parent.$index}}_answer_{{$index}}" 
+		     				ng-model="answers[$parent.$index]" value="{{ answer.answerText }}"  name="quest_{{$parent.$index}}_answers" /> {{ answer.answerText }}</label>
+		    			</p>
+		    		</ul>
+		    	</h6>
+		    </ul>
+		    <button class="btn btn-info" type="submit" ng:click="showResult()" ng-model="show">Submit</button>
+		    <br>
+		    <br>
+		    	<div ng-show="show">
+				  	<div class="card-body rounded" id="customCard">
+				  		<h1 class="text-light">Results</h1>
+				    	<p class="text-light">you got {{ correctCount }} out of {{questions.length}} right</p>
+				    </div>
+			    </div>
+	    </div>
+	    
+	</div>
+</div>
+
+  
+
+
+
+
+

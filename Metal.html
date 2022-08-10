@@ -1,0 +1,102 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/metal.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">Pop Punk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1970-Now</h3>
+		<h1 class="text-light">Metal</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Heavy metal is a sub-genre of rock music that emerged as a defined musical style in the 1970s. 
+		 		Its roots are firmly entrenched in hard rock bands, which between 1969 and 1974, mixed blues and 
+		 		rock music, creating a thick, heavy, guitar-and-drums-centered sound characterized by the use of 
+		 		highly-amplified guitar sound distortion.</p>
+		 		<p>Heavy metal performances are characterized by flamboyant, pyrotechnical guitar solos and 
+		 		boundary-defying, defiantly counter-cultural stagecraft. In song lyrics, bands often dwell on 
+		 		imagery of violence, death, unrestrained hedonism, and occult practices, while mocking religious symbols, 
+		 		faith, and conventional themes of love. While many heavy metal bands are far more socially
+		 		conscious and avoid these extremes, the impact of such lyrics has been debated in 
+		 		the context of shocking outbreaks of violence among youth.</p>
+		 		
+		 		
+		 		<p> <b>Significant Metal Musicians</b> </p>
+		 			<ul>
+		 				<li>Black Sabbath</li>
+		 				<li>Metallica</li>
+		 				<li>Korn</li>
+		 				<li>Judas Priest</li>
+		 				<li>Iron Maiden</li>
+		 				<li>Disturbed</li>
+		 				<li>Slipknot</li>
+		 				<li>Five Finger Death Punch</li>
+		 				
+		 			</ul>
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWOaP4H0w5b0?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!PopPunk"><i class="fa-solid fa-backward-step"></i> Pop Punk</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!CurrentPop">Current Pop <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

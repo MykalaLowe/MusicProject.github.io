@@ -1,0 +1,101 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/hip_hop_background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">Origins: 1970s</h3>
+		<h1 class="text-light">Hip Hop</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Hip-hop is a genre of music most often characterized by a strong, rhythmic beat and a rapping vocal track. 
+		 		The genre originated in New York City in the 1970s as a cultural exchange among Black, Latino, and Caribbean youth 
+		 		and has grown into one of the most consumed genres of music in the United States. As a culture, hip-hop is built 
+		 		on four main pillars: DJing, rapping (also called MCing), breakdancing (usually called breaking or b-boying), and graffiti.</p>
+		 		<p>Early hip-hop music saw its roots in the 1970s in the New York City borough of the Bronx. It started as a collaboration 
+		 		among intersecting groups of Black, Latinx, and Caribbean American youth at block parties: community gatherings that 
+		 		featured DJs playing soul and funk music. NYC DJs like DJ Kool Herc, Grand Wizzard Theodore, Grandmaster Flash, and 
+		 		Afrika Bambaataa began to experiment with different techniques during parties, including longer percussive breaks 
+		 		(called "breakbeats" or simply "the breaks"), turntable techniques, scratching, freestyle, and improvised vocals 
+		 		based on Jamaican "toasting." They're often credited as pioneers of modern hip-hop and rap music. </p>
+		 		<p>A rhythmic beat is the strongest unifying factor of hip-hop music. It can be fast and aggressive or slow 
+		 		and relaxed, but it carries the song steadily forward and serves as a backdrop for vocal performance. Most beats 
+		 		 aren't simple drum lines-- beat-making is a complex and varied art form that results in other songs 
+		 		and sounds. The majority of hip-hop songs incorporate rapping as their main vocal style: a rhythmic, usually rhymed 
+		 		type of chant that interplays with the beat. Other vocal styles include singing, spoken word, autotune, and ad-libs.</p>
+		 		<p> <b>Significant Hip Hop Musicians</b> </p>
+		 			<ul>
+		 				<li>DJ Kool Herc</li>
+		 				<li>Grandmaster Flash</li>
+		 				<li>Afrika Bambaataa</li>
+		 				<li>Grand Wizzard Theodore</li>
+		 				<li>Sugarhill Gang</li>
+		 			</ul>
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/696fgrOcxfuSWtnLW5VOYw?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!SurfRock"><i class="fa-solid fa-backward-step"></i> Surf Rock</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Disco">Disco <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

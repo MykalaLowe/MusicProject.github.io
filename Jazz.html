@@ -1,0 +1,97 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/jazz-background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	 <div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1917-1935</h3>
+		<h1 class="text-light">Jazz</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Jazz is a distinctively American style of music that developed in the early decades of the 20th century. 
+		 		Its roots include many African-American folk music traditions, such as spirituals, work songs, and blues. 
+		 		It also borrowed from 19th century band music and the Ragtime style of piano playing. 
+		 		The distinctive elements of jazz include characteristic rhythm patterns, harmonic practices related to, 
+		 		but not identical with, functional harmony, and the practice of improvisation. Jazz has influenced, 
+		 		and has been influenced by, traditional classical music and popular music. </p>
+		 		<p> <b>Significant Jazz Musicians</b> </p>
+		 			<ul>
+		 				<li>Louis Armstrong</li>
+		 				<li>Billie Holiday</li>
+		 				<li>Benny Goodmany</li>
+		 				<li>Ella Fitzgerald</li>
+		 				<li>Tommy Dorsey</li>
+		 				<li>Count Basie</li>
+		 				<li>Glenn Miller</li>
+		 				<li>Duke Ellington</li>
+		 			</ul>
+		 		
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXbITWG1ZJKYt?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; 
+	 			fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Ragtime"><i class="fa-solid fa-backward-step"></i> Ragtime</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!RockNRoll">RockNRoll <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

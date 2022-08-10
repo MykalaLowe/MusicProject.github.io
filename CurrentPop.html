@@ -1,0 +1,113 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/ipod.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">Pop Punk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">2000-Now</h3>
+		<h1 class="text-light">Current Pop</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>The past two decades have seen a major step towards the democratization of the music industry. 
+		 		Sites like YouTube, Soundcloud, Spotify, and iTunes provide aspiring artists a space to share their 
+		 		music; and if they're lucky, be virally discovered and go on to launch successful music careers. 
+		 		Music is more accessible now than ever before, with a constant influx of new releases catering to 
+		 		individual taste. People are no longer subject to the radio, opting for AirPods and Bluetooth to 
+		 		listen to their own curated playlists- but this nevertheless didn't come at the cost of pop music. 
+		 		The number of hits- future "claaassics"- to come out of the past twenty years easily amounts to many 
+		 		more than those of past decades, because so much music is just so available. As access to the industry 
+		 		became more universal,  popular music did too.</p>
+		 		<p>Country singers, hip-hop rappers, and electronic DJs eventually all became pop artists. The top 
+		 		charts were no longer composed almost exclusively of US and UK-based artists, seeing the meteoric 
+		 		rise of K-pop and latino pop into the mainstream. Frequent collaborations between artists designated 
+		 		to different genres made for chart-topping singles that boasted a variety of musical styles.</p>
+		 		<p>Pop music became exactly what it is: popular. And the music industry made it clear that pop music 
+		 		knows no bounds. To be recognized and stand out, you had to go viral. Artists had to get creative: 
+		 		go big or go home. Music was no longer just released, but dropped with full-on spectacles. Whether 
+		 		it be a Netflix documentary, viral internet challenge, star-studded music video, spiritual service, 
+		 		music festival, shady or diss track, or a complete rebrand- whatever got people talking got the 
+		 		streaming numbers going.</p>
+		 		
+		 		<p> <b>Significant Current Pop Musicians</b> </p>
+		 			<ul>
+		 				<li>Beyonc&eacute</li>
+		 				<li>Taylor Swift</li>
+		 				<li>Ed Sheeran</li>
+		 				<li>Lady Gaga</li>
+		 				<li>Katy Perry</li>
+		 				<li>Bruno Mars</li>
+		 				<li>Justin Bieber</li>
+		 				<li>Maroon 5</li>
+		 				<li>One Direction</li>
+		 				<li>Kesha</li>
+		 				<li>Rihanna</li>
+		 				<li>Adele</li>
+		 			</ul>
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3FeewjLi5LMzIpV4h35QEz?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Metal"><i class="fa-solid fa-backward-step"></i> Metal</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!EDM">EDM <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+body { 
+	  background: url(images/learn.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>
+
+  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main" id="customCard">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right"></h3>
+		<h1 class="text-light">Learn</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		
+		 		<p>Here is where you can learn about several different genres of American music from the last century.
+		 		By reading through the lessons, you can find all of the information you need to pass the quiz at the end!
+		 		There is also a Spotify playlist on each page so that you can listen to that genre and experience the music
+		 		firsthand. </p>
+		 		<p>Click the <b>Genre Lessons</b> button at the top left to choose a specific genre or click the next and previous
+		 		<b>genre</b> buttons on the bottom to cycle through the genres in order. </p>
+		 		
+		 			
+	  		</div>
+	 	</div>
+ 	</div>
+	 	
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!main"><i class="fa-solid fa-backward-step"></i> Home</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Ragtime">Ragtime <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html>
+

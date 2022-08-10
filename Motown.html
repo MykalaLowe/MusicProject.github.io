@@ -1,0 +1,103 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/Motown_5.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1959-1970</h3>
+		<h1 class="text-light">Motown</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Motown Records was started by Berry Gordy, Jr. in Detroit, Michigan and produced a pop-soul hybrid he 
+		 		correctly dubbed "The Sound Of Young America." The typical Motown song was a bright, uptempo number done as a 
+		 		2/4 shuffle or a hard 4/4 beat. Lyrically it dealt almost exclusively with romance, with love won and lost; it 
+		 		also typically featured a very elaborate production which included a sax-heavy, rhythmic brass section, sweet strings, 
+		 		glockenspiel or other bells, and a surprisingly funky bass line, usually provided by the legendary James Jamerson. 
+		 		Solos were generally eschewed in favor of pop songcraft, and singers typically walked the line between hardcore gospel 
+		 		testifying and smooth jazz balladry. (Indeed, most of the "Funk Brothers," the backing band on many Motown songs, were 
+		 		jazz musicians 	by trade.) Most Motown songs were written on piano and based on a piano riff, although there were 
+		 		occasional ballads that broke the mold (the Temptations' "My Girl").</p>
+		 		<p>As the 60s wore on, soul got grittier and more socially aware, and while the better Motown artists made 
+		 		the transition with spectacular results (Stevie Wonder, Marvin Gaye), others, like The Supremes's Diana Ross, 
+		 		were forced to go pop to compete. The Motown Sound gradually faded, but has never left the public consciousness 
+		 		in America or the UK; in the 80s, it sparked a mini-revival among MTV bands who'd grown up on the genre.</p>
+		 		<p> <b>Significant Motown Musicians</b> </p>
+		 			<ul>
+		 				<li>The Supremes</li>
+		 				<li>Smokey Robinson & The Miracles</li>
+		 				<li>Stevie Wonder</li>
+		 				<li>The Temptations</li>
+		 				<li>Marvin Gaye</li>
+		 				<li>The Jackson 5</li>
+		 				<li>The Four Tops</li>
+		 				<li>Martha and The Vandellas</li>
+		 			</ul>
+		 		
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8xV1CEmgc1h?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; 
+	 			encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!RockNRoll"><i class="fa-solid fa-backward-step"></i> Rock N Roll</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!BritishInvasion">British Invasion <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

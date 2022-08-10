@@ -1,0 +1,105 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/RockNRoll_background.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">PopPunk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1954-1964</h3>
+		<h1 class="text-light">Rock & Roll</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Rock & Roll originated in the US in the mid-1950s and evolved by the mid-1960s into the more 
+		 		encompassing style known as Rock music. It has been described as a merger of country music and rhythm and blues, 
+		 		but the seeds of the music had been in place for decades and they flowered in the mid-1950s when nourished by 
+		 		a volatile mix of Black culture and white spending power.  </p>
+		 		<p>Black vocal groups such as the Dominoes and the Spaniels began combining gospel-style harmonies and
+		 		 call-and-response singing with earthy subject matter and more aggressive rhythm-and-blues rhythms. Heralding 
+		 		 this new sound were disc jockeys such as William ("Hoss") Allen of WLAC in Nashville, Tennessee-who created 
+		 		 rock-and-roll radio by playing hard-driving rhythm-and-blues and raunchy blues records that introduced white 
+		 		 suburban teenagers to a culture that sounded more exotic, thrilling, and illicit than anything they had ever known.</p>
+		 		<p>For young white America, this new music was a soundtrack for rebellion, however mild. When Bill Haley and His 
+		 		Comets kicked off the 1955 motion picture <i>Blackboard Jungle</i> with <i>Rock Around the Clock</i>, teens in movie houses 
+		 		throughout the United States stomped on their seats. Movie stars Marlon Brando in <i>The Wild One</i> and 
+		 		James Dean in <i>Rebel Without a Cause</i> oozed sullen, youthful defiance that was echoed by the music. 
+		 		This emerging rock-and-roll culture brought a wave of condemnations from religious leaders, government officials, 
+		 		and parent groups, who branded it the "devil's music."</p>
+		 		<p> <b>Significant Rock & Roll Musicians</b> </p>
+		 			<ul>
+		 				<li>Chuck Berry</li>
+		 				<li>Little Richard</li>
+		 				<li>Elvis Presley</li>
+		 				<li>Fats Domino</li>
+		 				<li>Bill Haley and The Comets</li>
+		 				<li>Buddy Holly</li>
+		 				<li>Eddie Cochran</li>
+		 				<li>Jerry Lee Lewis</li>
+		 			</ul>
+		 		
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWSwFS0Z6E1ep?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Jazz"><i class="fa-solid fa-backward-step"></i> Jazz</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Motown">Motown <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

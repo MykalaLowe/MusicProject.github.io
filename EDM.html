@@ -1,0 +1,105 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/edm.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">Pop Punk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  	<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1990s-Now</h3>
+		<h1 class="text-light">EDM</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>Electronic Dance Music is a compilation of electronic music subgenres that are intended for 
+		 		crowds of dancers, including disco music, synthpop, techno, house music, trance music, drum and bass, 
+		 		dubstep, trap, hardstyle and more. With such a wide range of sounds, it would seem impossible that 
+		 		all of this could, at the same time, be classified as EDM, but these subgenres have developed over 
+		 		the course of the last few decades, informing and transforming out of a progressive dance culture.</p>
+		 		<p>When you hear EDM today, it's a much different experience than what listeners of electronic 
+		 		dance music would have heard in the 1970s, '80s, '90s, or even early 2000s, and its progression 
+		 		as a recognizable genre can be mapped out by understanding when its subgenres were 
+		 		popularized as forms of dance music.</p>
+		 		<p>Despite its slow start, EDM eventually picked up popularity in the U.S. thanks to international 
+		 		DJs and music producers drawing attention to the genre as well as a techno-pop 1998 album by 
+		 		Madonna, <i>Ray of Light</i>. From there, we began to see producers like Ti&eumlsto, Daft Punk and 
+		 		David Guetta, who are still internationally acclaimed EDM musicians. These artists, when once 
+		 		developing a cult following, have made names for themselves within the mainstream music industry 
+		 		and still top the charts. In the early 2000s, dubstep was also introduced to the U.S. music industry 
+		 		through artists like Skrillex, a Grammy-winning EDM artist with sounds of dubstep, house, trap and more.</p>
+		 		<p> <b>Significant EDM Musicians</b> </p>
+		 			<ul>
+		 				<li>Ti&eumlsto</li>
+		 				<li>Daft Punk</li>
+		 				<li>deadmau5</li>
+		 				<li>Marshmello</li>
+		 				<li>Skrillex</li>
+		 				<li>Armin van Buuren</li>
+		 				<li>Calvin Harris</li>
+		 				
+		 			</ul>
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1kCIzMYtzum?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!CurrentPop"><i class="fa-solid fa-backward-step"></i> Current Pop</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!quiz">Quiz! <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>

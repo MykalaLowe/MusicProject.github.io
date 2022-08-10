@@ -1,0 +1,99 @@
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--load all Font Awesome styles -->
+	<link href="./css/all.css" rel="stylesheet">
+<style>
+	body { 
+		  background: url(images/classic_rock_3.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+</style>
+</head>
+<body>
+<div id="mySidebar" class="sidebar">
+ 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="customCard"><i class="fa-solid fa-circle-xmark"></i></a>  
+  	<a href="#!Ragtime">Ragtime</a>
+	<a href="#!Jazz">Jazz</a>
+	<a href="#!RockNRoll">RockNRoll</a>
+	<a href="#!Motown">Motown</a>
+	<a href="#!BritishInvasion">British Invasion</a>
+	<a href="#!SurfRock">Surf Rock</a>
+	<a href="#!HipHop">Hip Hop</a>
+	<a href="#!Disco">Disco</a>
+	<a href="#!ClassicRock">Classic Rock</a>
+	<a href="#!PopPunk">Pop Punk</a>
+	<a href="#!Metal">Metal</a>
+	<a href="#!CurrentPop">Current Pop</a>
+	<a href="#!EDM">EDM</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()" id="customCard"><i class="fa-solid fa-bars"></i> Genre Lessons</button>  
+  		<div class="card mt-3">
+	<div class="card-header" id="customCard" >
+		<h3 class="text-light float-right">1964-1982</h3>
+		<h1 class="text-light">Classic Rock</h1>
+		
+	</div>
+		<div class="card-body">
+			<div class="mx-auto w-75" id="customText3">
+		 		<p>The classic rock genre encompasses rock music made over three decades, from '60s psychedelia and '70s 
+		 		album-oriented rock (AOR) to 1980s college rock, heavy metal, and 1990s grunge. This encompasses the era 
+		 		when the Boomer	generation grew up. Most classic rock songs are guitar-driven, and the genre has many guitar 
+		 		heroes- from Jimi Hendrix to Jeff Beck to Eddie Van Halen. 
+		 		Classic rock bands are also known for iconic lead singers, from Mick Jagger of the Rolling Stones to Robert 
+		 		Plant of Led Zeppelin to Axl Rose of Guns N' Roses. </p>
+		 		<p>As the rock era unfolds, more artists are grouped into the classic rock radio format. While groups as 
+		 		disparate as Pink Floyd, the Jackson 5, Bonnie Raitt, and R.E.M. may have appeared on different radio 
+		 		stations in the past, today their songs can be heard on the same classic rock stations throughout the U.S.</p>
+		 		
+		 		<p> <b>Significant Classic Rock Musicians</b> </p>
+		 			<ul>
+		 				<li>Led Zeppelin </li>
+		 				<li>AC/DC </li>
+		 				<li>Aerosmith </li>
+		 				<li>Eagles </li>
+		 				<li>Kiss </li>
+		 				<li>Lynyrd Skynyrd </li>
+		 				<li>Guns N' Roses </li>
+		 				<li>Aerosmith </li>
+		 			</ul>
+	  		</div>
+	 	</div>
+ 	</div>
+ 	<div class="card mt-3">
+	 	<div class="card-header" id="customCard">
+	 		<h4 class="text-light">Spotify</h4>
+	 	</div>
+	 	<div class="card-body mt-1 embed-responsive embed-responsive-21by9">
+	 		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWTwG3oGOElQX?utm_source=generator" 
+	 			width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; 
+	 			clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+	 		</iframe>
+	 	</div>
+	 </div>
+</div>
+
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!Disco"><i class="fa-solid fa-backward-step"></i> Disco</a></li>
+  <li class="page-item"><a id="customCard" class="page-link text-light" href="#!PopPunk">Pop Punk <i class="fa-solid fa-forward-step"></i></a></li>
+</ul>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
