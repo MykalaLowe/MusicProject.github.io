@@ -7,8 +7,7 @@ let musicProject = angular.module('musicProject', ['ngRoute']);
 musicProject.config(function($routeProvider) {
 	  $routeProvider
 	  .when("/learn", {
-	    templateUrl : "learn.html",
-	    controller: "learnController"
+	    templateUrl : "learn.html"
 	  })
 	  .when("/quiz", {
 	    templateUrl : "quiz.html",
