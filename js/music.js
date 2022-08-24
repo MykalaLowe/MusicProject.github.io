@@ -13,9 +13,6 @@ musicProject.config(function($routeProvider) {
 	    templateUrl : "quiz.html",
 	    controller: "quizController"
 	  })
-	  .when("/resume", {
-	    templateUrl : "resume.html"
-	  })
 	   .when("/Ragtime", {
 	    templateUrl : "Ragtime.html",
 	  })
